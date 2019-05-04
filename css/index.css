@@ -1,0 +1,102 @@
+/* loading Progress */
+.progress {
+    width: 50%;
+    position: fixed;
+    top: 35%;
+    left:25%;
+}
+.Content {
+    display: none;
+}
+
+
+
+
+body {
+    font-family: "Microsoft JhengHei", "Roboto", sans-serif;
+    position: relative;
+}
+
+/* nav 導覽列 */
+.nav_bg {
+    background: #ffc107;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #fff;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* nav 導覽列-手機 */
+#navbar_Scrollspy button {
+    background: #FFEB3B;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #000;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+
+
+
+/* carousel 輪播 */
+
+
+/* Service 服務項目 */
+.radius_50 {
+    border-radius: 50%;
+}
+
+/* Works 作品展示 */
+
+
+
+
+
+
+/* Quote 報價諮詢 */
+
+
+
+
+
+
+/* Process 設計流程 */
+
+
+
+
+
+/* Contact 聯絡我們 */
+
+/* footer 版權 */
+.footer{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+/* toTop 置頂*/
+#toTop {
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    display: none;
+    background-image: url(../images/toTop/toTop.png);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}

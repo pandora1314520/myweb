@@ -1,12 +1,323 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>文档标题</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- index.css -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <title>一頁式網站</title>
+    s
 </head>
- 
-<body>
-文档内容......
+
+<body id="home" data-spy="scroll" data-target="#navbar_Scrollspy">
+
+    <!-- loading Progress -->
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar"
+            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+    </div>
+
+    <div class="Content">
+        <!-- nav 導覽列-->
+        <nav id="navbar_Scrollspy" class="navbar navbar-expand-lg navbar-light nav_bg sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo/logo.png" width="100" height="100" class="img-fluid" alt="logo" title="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto nav-pills">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Service">服務項目</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Works">作品展示</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Quote">報價諮詢</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Process">設計流程</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">聯絡我們</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- carousel 輪播 -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="3000" data-pause="hover">
+                    <img src="images/carousel/Carousel_create.jpg" class="d-block w-100 img-fluid" alt="上帝的創造"
+                        alt="上帝的創造">
+                </div>
+                <div class="carousel-item" data-interval="3000" data-pause="hover">
+                    <img src="images/carousel/Carousel_fish.jpg" class="d-block w-100 img-fluid" alt="把船開到水深一點的地方"
+                        alt="把船開到水深一點的地方">
+                </div>
+                <div class="carousel-item" data-interval="3000" data-pause="hover">
+                    <img src="images/carousel/Carousel_relax.jpg" class="d-block w-100 img-fluid" alt="忙碌的世界需要放鬆"
+                        alt="忙碌的世界需要放鬆">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Service 服務項目 -->
+        <div id="Service" class="Service">
+            <div class="container">
+                <!-- <div class="row">
+                <div class="col">服務項目</div>
+            </div> -->
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>服務項目</h2>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="div">
+                            <h6>1.網站建置</h6>
+                            <p>依照客戶需求符合市場需要，設計相關活動網站、平面商品。</p>
+                        </div>
+                        <div class="div">
+                            <h6>2.網頁設計</h6>
+                            <p>使用免費架站軟體，為客戶商品宣傳。</p>
+                        </div>
+                        <div class="div">
+                            <h6>3.多媒體設計</h6>
+                            <p>內容說明</p>
+                        </div>
+                        <div class="div">
+                            <h6>4.平面包裝設計</h6>
+                            <p>內容說明</p>
+                        </div>
+                        <div class="div">
+                            <h6>5.CIS企業識別</h6>
+                            <p>內容說明</p>
+                        </div>
+                        <div class="div">
+                            <h6>6.動畫製作</h6>
+                            <p>內容說明</p>
+                        </div>
+                        <div class="div">
+                            <h6>7.印刷大圖輸出</h6>
+                            <p>內容說明</p>
+                        </div>
+                        <div class="div">
+                            <h6>8.課程教學</h6>
+                            <p>內容說明</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="images/Service/service_1.jpg" class="img-fluid radius_50" alt="service_1"
+                            title="service_1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Works 作品展示 -->
+        <div id="Works" class="Works">
+            <div class="container">
+                <!-- <div class="row">
+                <div class="col">作品展示</div>
+            </div> -->
+                <!-- swiper -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2>photoshop</h2>
+                        </div>
+                        <div class="col-12 col-sm-12">
+                            <div class="Box">
+                                <div class="content1">
+                                    <!-- <h2>photoshop</h2> -->
+                                    <div class="Box_con clearfix">
+                                        <span class="btnl btn" id="btnl"></span>
+                                        <span class="btnr btn" id="btnr"></span>
+                                        <div class="conbox" id="BoxUl">
+                                            <ul style="width: 1525px; left: 0px;">
+                                                <li class="cur"><img src="images/swiper/2.jpg" alt=""></li>
+                                                <li class="cur"><img src="images/swiper/3.jpg" alt=""></li>
+                                                <li class="cur"><img src="images/swiper/4.jpg" alt=""></li>
+                                                <li class="cur"><img src="images/swiper/5.jpg" alt=""></li>
+                                                <li class="cur"><img src="images/swiper/1.jpg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                        <p class="BoxSwitch" id="BoxSwitch"><span class=""></span>
+                                            <span class="cur"></span>
+                                            <span class=""></span>
+                                            <span class=""></span>
+                                            <span class=""></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>photoshop</h2>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Works/PS/ps_milk.jpg" class="img-fluid img-thumbnail" alt="service_1"
+                            title="service_1">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Works/PS/ps_milk.jpg" class="img-fluid img-thumbnail" alt="service_1"
+                            title="service_1">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Works/PS/ps_milk.jpg" class="img-fluid img-thumbnail" alt="service_1"
+                            title="service_1">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Works/PS/ps_milk.jpg" class="img-fluid img-thumbnail" alt="service_1"
+                            title="service_1">
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Illustrator</h2>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Works/AI/AI_animal_owl.jpg" class="img-fluid img-thumbnail" alt="AI_animal_owl"
+                            title="AI_animal_owl">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Works/AI/AI_animal_owl.jpg" class="img-fluid img-thumbnail" alt="AI_animal_owl"
+                            title="AI_animal_owl">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Works/AI/AI_animal_owl.jpg" class="img-fluid img-thumbnail" alt="AI_animal_owl"
+                            title="AI_animal_owl">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Works/AI/AI_animal_owl.jpg" class="img-fluid img-thumbnail" alt="AI_animal_owl"
+                            title="AI_animal_owl">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Quote 報價諮詢 -->
+        <div id="Quote" class="Quote">
+            <div class="container">
+                <!-- <div class="row">
+                <div class="col">報價諮詢</div>
+            </div> -->
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <h2>報價諮詢</h2>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="images/Quote/quote_1.jpg" class="img-fluid" alt="quote_1" title="quote_1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Process 設計流程 -->
+        <div id="Process" class="Process">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>設計流程</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <h6>（一）收集資料</h6>
+                        <img src="images/Process/process_1.jpg" class="img-fluid" alt="process_1" title="process_1">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <h6>（二）網站規劃</h6>
+                        <img src="images/Process/process_2.jpg" class="img-fluid" alt="process_2" title="process_2">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <h6>（三）設計製作</h6>
+                        <img src="images/Process/process_3.jpg" class="img-fluid" alt="process_3" title="process_3">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <h6>（四）網站完成以及經營維護。</h6>
+                        <img src="images/Process/process_4.jpg" class="img-fluid" alt="process_4" title="process_4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact 聯絡我們 -->
+        <div id="Contact" class="Contact">
+            <div class="container">
+                <!-- <div class="row">
+                        <div class="col">聯絡我們</div>
+                    </div> -->
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>聯絡我們</h2>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="images/Contact/Contact.jpg" class="img-fluid" alt="" title="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer 版權 -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        Copyright © 2019 chenqi pan. All rights reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- toTop 置頂 -->
+        <div class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="toTop"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- js、jq -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/scrollspy.js"></script>
+    <!-- swiper.js -->
+    <script type="text/javascript" src="js/Lunbo.js"></script>
 </body>
- 
+
 </html>
